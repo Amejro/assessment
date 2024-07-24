@@ -147,3 +147,274 @@ export function MenuIcon() {
     </svg>
   );
 }
+
+export function UserSmile({ className }: { className?: string }) {
+  return (
+    <svg
+      xmlns='http://www.w3.org/2000/svg'
+      width='146'
+      height='146'
+      fill='none'
+      className={className}
+      viewBox='0 0 146 146'
+    >
+      <g clipPath='url(#clip0_41_1774)'>
+        <path
+          fill='#3B9E7A'
+          d='M73 133.833c-33.598 0-60.833-27.235-60.833-60.833S39.402 12.166 73 12.166c33.599 0 60.834 27.236 60.834 60.834S106.599 133.833 73 133.833zM42.584 73a30.417 30.417 0 0060.833 0H91.25a18.25 18.25 0 11-36.5 0H42.584z'
+        ></path>
+      </g>
+      <defs>
+        <clipPath id='clip0_41_1774'>
+          <path fill='#fff' d='M0 0H146V146H0z'></path>
+        </clipPath>
+      </defs>
+    </svg>
+  );
+}
+
+export function EdicationIcon() {
+  return (
+    <svg
+      xmlns='http://www.w3.org/2000/svg'
+      width='24'
+      height='24'
+      fill='none'
+      viewBox='0 0 24 24'
+    >
+      <g clipPath='url(#clip0_39_419)'>
+        <path
+          fill='#000'
+          d='M21 18H6a1 1 0 000 2h15v2H6a3 3 0 01-3-3V4a2 2 0 012-2h16v16zM5 16.05c.162-.033.329-.05.5-.05H19V4H5v12.05zM16 9H8V7h8v2z'
+        ></path>
+      </g>
+      <defs>
+        <clipPath id='clip0_39_419'>
+          <path fill='#fff' d='M0 0H24V24H0z'></path>
+        </clipPath>
+      </defs>
+    </svg>
+  );
+}
+
+export function WorkIcon() {
+  return (
+    <svg
+      xmlns='http://www.w3.org/2000/svg'
+      width='24'
+      height='24'
+      fill='none'
+      viewBox='0 0 24 24'
+    >
+      <path
+        fill='#0B8659'
+        d='M7 5V2a1 1 0 011-1h8a1 1 0 011 1v3h4a1 1 0 011 1v14a1 1 0 01-1 1H3a1 1 0 01-1-1V6a1 1 0 011-1h4zM4 16v3h16v-3H4zm0-2h16V7H4v7zM9 3v2h6V3H9zm2 8h2v2h-2v-2z'
+      ></path>
+    </svg>
+  );
+}
+
+export function InterestIcon() {
+  return (
+    <svg
+      xmlns='http://www.w3.org/2000/svg'
+      width='24'
+      height='24'
+      fill='none'
+      viewBox='0 0 24 24'
+    >
+      <path
+        fill='#319CFF'
+        d='M12 15.968l4.247 2.377-.95-4.773 3.574-3.305-4.833-.573L12 5.275v10.693zm0 2.292l-7.053 3.948 1.575-7.928L.587 8.792l8.027-.952L12 .5l3.386 7.34 8.027.952-5.935 5.488 1.575 7.928L12 18.26z'
+      ></path>
+    </svg>
+  );
+}
+
+export function CertificateIcon() {
+  return (
+    <svg
+      xmlns='http://www.w3.org/2000/svg'
+      width='24'
+      height='24'
+      fill='none'
+      viewBox='0 0 24 24'
+    >
+      <path
+        fill='#E96163'
+        d='M17 15.245v6.872a.5.5 0 01-.757.429L12 20l-4.243 2.546a.5.5 0 01-.757-.43v-6.87a8 8 0 1110 0v-.001zm-8 1.173v3.05l3-1.8 3 1.8v-3.05A7.978 7.978 0 0112 17a7.978 7.978 0 01-3-.582zM12 15a6 6 0 100-12 6 6 0 000 12z'
+      ></path>
+    </svg>
+  );
+}
+
+export function AccomplishmentsIcon() {
+  return (
+    <svg
+      xmlns='http://www.w3.org/2000/svg'
+      width='24'
+      height='24'
+      fill='none'
+      viewBox='0 0 24 24'
+    >
+      <path
+        fill='#D98F00'
+        d='M13 16.938V19h5v2H6v-2h5v-2.062A8 8 0 014 9V3h16v6a8 8 0 01-7 7.938zM6 5v4a6 6 0 1012 0V5H6zM1 5h2v4H1V5zm20 0h2v4h-2V5z'
+      ></path>
+    </svg>
+  );
+}
+
+export function UploadIcon() {
+  return (
+    <svg
+      xmlns='http://www.w3.org/2000/svg'
+      width='24'
+      height='24'
+      fill='none'
+      viewBox='0 0 24 24'
+    >
+      <path
+        fill='#818181'
+        d='M1 14.5a6.496 6.496 0 013.064-5.52 8.001 8.001 0 0115.872 0 6.5 6.5 0 01-2.936 12L7 21c-3.356-.274-6-3.078-6-6.5zm15.848 4.487a4.5 4.5 0 002.03-8.31l-.807-.502-.12-.942a6 6 0 00-11.903 0l-.12.942-.805.503a4.5 4.5 0 002.029 8.309l.173.013h9.35l.173-.013zM13 13v4h-2v-4H8l4-5 4 5h-3z'
+      ></path>
+    </svg>
+  );
+}
+
+export function CircleIcon({ className }: { className?: string }) {
+  return (
+    <svg
+      xmlns='http://www.w3.org/2000/svg'
+      width='24'
+      height='24'
+      fill='none'
+      stroke='currentColor'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+      strokeWidth='2'
+      className={className}
+      viewBox='0 0 24 24'
+    >
+      <circle cx='12' cy='12' r='10'></circle>
+    </svg>
+  );
+}
+
+export function InfoIcon() {
+  return (
+    <svg
+      xmlns='http://www.w3.org/2000/svg'
+      width='24'
+      height='24'
+      fill='none'
+      viewBox='0 0 24 24'
+    >
+      <path
+        fill='#319CFF'
+        d='M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm-1-11v6h2v-6h-2zm0-4v2h2V7h-2z'
+      ></path>
+    </svg>
+  );
+}
+
+export function UploadFileIcon() {
+  return (
+    <svg
+      xmlns='http://www.w3.org/2000/svg'
+      width='24'
+      height='24'
+      fill='none'
+      viewBox='0 0 24 24'
+    >
+      <path
+        fill='#737377'
+        d='M12 2c5.52 0 10 4.48 10 10s-4.48 10-10 10S2 17.52 2 12 6.48 2 12 2zm0 18c4.42 0 8-3.58 8-8s-3.58-8-8-8-8 3.58-8 8 3.58 8 8 8zm1-8h3l-4 4-4-4h3V8h2v4z'
+      ></path>
+    </svg>
+  );
+}
+
+export function BoldIcon({ className }: { className?: string }) {
+  return (
+    <svg
+      xmlns='http://www.w3.org/2000/svg'
+      width='24'
+      height='24'
+      fill='none'
+      stroke='currentColor'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+      strokeWidth='2'
+      className={className}
+      viewBox='0 0 24 24'
+    >
+      <path d='M6 12h9a4 4 0 010 8H7a1 1 0 01-1-1V5a1 1 0 011-1h7a4 4 0 010 8'></path>
+    </svg>
+  );
+}
+
+export function UnderLineIcon({ className }: { className?: string }) {
+  return (
+    <svg
+      xmlns='http://www.w3.org/2000/svg'
+      width='24'
+      height='24'
+      fill='none'
+      stroke='currentColor'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+      strokeWidth='2'
+      className={className}
+      viewBox='0 0 24 24'
+    >
+      <path d='M6 4v6a6 6 0 0012 0V4'></path>
+      <path d='M4 20L20 20'></path>
+    </svg>
+  );
+}
+
+export function ItalicIcon({ className }: { className?: string }) {
+  return (
+    <svg
+      xmlns='http://www.w3.org/2000/svg'
+      width='24'
+      height='24'
+      fill='none'
+      stroke='currentColor'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+      strokeWidth='2'
+      className={className}
+      viewBox='0 0 24 24'
+    >
+      <path d='M19 4L10 4'></path>
+      <path d='M14 20L5 20'></path>
+      <path d='M15 4L9 20'></path>
+    </svg>
+  );
+}
+
+export function ListIcon({ className }: { className?: string }) {
+  return (
+    <svg
+      xmlns='http://www.w3.org/2000/svg'
+      width='24'
+      height='24'
+      fill='none'
+      stroke='currentColor'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+      strokeWidth='2'
+      className={className}
+      viewBox='0 0 24 24'
+    >
+      <path d='M8 6L21 6'></path>
+      <path d='M8 12L21 12'></path>
+      <path d='M8 18L21 18'></path>
+      <path d='M3 6L3.01 6'></path>
+      <path d='M3 12L3.01 12'></path>
+      <path d='M3 18L3.01 18'></path>
+    </svg>
+  );
+}

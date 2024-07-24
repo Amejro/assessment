@@ -1,12 +1,19 @@
 'use client';
 
-function page() {
+import { useRouter } from 'next/navigation';
+import { use } from 'react';
+
+export default function Page() {
+  const router = useRouter();
   return (
     <div>
       <div className='max-w-[416px] mx-auto px-4 space-y-5 py-14'>
         <h2 className='text-[18px] sm:text-[24px] font-bold'>Get started.</h2>
 
-        <form action='' className='space-y-5'>
+        <form
+          action={() => router.push('/account/verify')}
+          className='space-y-5'
+        >
           <div>
             <label
               htmlFor='fullName'
@@ -32,7 +39,7 @@ function page() {
                 Date of birth
               </label>
               <input
-                type='text'
+                type='date'
                 name='dateOfBirth'
                 id='dateOfBirth'
                 required
@@ -109,7 +116,7 @@ function page() {
           </div>
 
           <button
-            // onClick={() => router.push('/account/signup')}
+            type='submit'
             className=' w-full bg-black text-white py-2 px-4 rounded-sm flex justify-center items-center space-x-2'
           >
             Create account
@@ -127,5 +134,3 @@ function page() {
     </div>
   );
 }
-
-export default page;
