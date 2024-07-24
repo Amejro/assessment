@@ -1,5 +1,4 @@
 import type { Config } from 'tailwindcss';
-import i from '';
 const config: Config = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
